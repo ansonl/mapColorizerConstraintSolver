@@ -18,6 +18,8 @@ In the below example, adjacent regions are colored from dark -> light based on n
 
 This is a work in progress and more details will be added in the future. 
 
+I am currently using this algorithm in conjunction with DEM to STL pipeline at https://github.com/ansonl/DEM2STL to print all US states with rivers highlighted in a secondary color. 
+
 1. Populate Shapefile *geographic-data/cb_2019_us_state_500k/cb_2019_us_state_500k.shp* with a value (ex: population, wildlife, landmass) for each feature/region in a column. QGIS or ArcGIS may be used to edit Shapefiles. 
 
 2. Edit *mapConstraintColorizer.py* to use your values' columns. 
